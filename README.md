@@ -23,7 +23,7 @@ Live at: [https://pintu-iitbhu.github.io](https://pintu-iitbhu.github.io)
 │   └── modern.js               # Nav, scroll, animations, form submission
 ├── images/
 │   ├── pintu-profile-pic.png
-│   ├── Pintu_Yadav_Resume.pdf
+│   ├── resume_full.pdf
 │   └── portfolio/
 │       ├── ai_cloud.png
 │       ├── online_trace.png
@@ -47,5 +47,5 @@ Live at: [https://pintu-iitbhu.github.io](https://pintu-iitbhu.github.io)
 No build step required. Open `index.html` directly in a browser or serve with any static file server:
 
 ```bash
-npx serve .
+python3 -m http.server 3000
 ```
